@@ -6,6 +6,8 @@ import CounterState from './components/CounterState';
 import Eventss from './components/Eventss';
 import Login from './components/Login';
 import MultiButton from './components/MultiButton';
+import SpicyFoodList from './components/SpicyFoodList';
+import Toogle from './components/Toogle';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <Eventss />
       <MultiButton />
       <ChangeItUp />
-      <CounterState/>
+      <CounterState />
+      <Toogle />
+      <SpicyFoodList/>
     </div>
   );
 }
