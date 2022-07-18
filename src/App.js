@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ChangeItUp from './components/ChangeItUp';
+import Color from './components/Color';
+import CounterState from './components/CounterState';
+import Eventss from './components/Eventss';
+import Login from './components/Login';
+import MultiButton from './components/MultiButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Color />
+      <Login/>
+      <Eventss />
+      <MultiButton />
+      <ChangeItUp />
+      <CounterState/>
     </div>
   );
 }
